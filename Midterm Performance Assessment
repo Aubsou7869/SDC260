@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Storefront</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>StudentID12345 – My Online Store</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="products">
+            <h2>Available Products</h2>
+
+            <table>
+                <caption>Store Inventory</caption>
+
+                <colgroup>
+                    <col style="background-color: #f9f9f9;">
+                    <col>
+                    <col style="background-color: #f9f9f9;">
+                    <col>
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Wireless Mouse</td>
+                        <td>$25.99</td>
+                        <td>Accessories</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Mechanical Keyboard</td>
+                        <td>$79.99</td>
+                        <td>Accessories</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>USB-C Hub</td>
+                        <td>$39.99</td>
+                        <td>Electronics</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Inventory subject to change</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Online Store</p>
+    </footer>
+
+</body>
+</html>
