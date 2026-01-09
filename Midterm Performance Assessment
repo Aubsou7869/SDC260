@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>My Storefront</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="StylesSheet.css">
 </head>
 <body>
 
     <header>
-        <h1>StudentID12345 – My Online Store</h1>
+        <h1>Aubsou7869 – My Online Store</h1>
     </header>
 
     <nav>
