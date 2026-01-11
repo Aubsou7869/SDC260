@@ -5,7 +5,7 @@
   <meta name="description" content="Personal homepage showcasing information, projects, and contact details.">
   <meta name="keywords" content="homepage, about, projects, contact">
   <meta name="author" content="Aubrey Soule">
-  <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet" />
   <title>My Homepage</title>
 </head>
@@ -15,40 +15,85 @@
       <h1>Welcome to My Homepage!</h1>
       <nav>
         <ul>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contacts">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="about">
+      <section id="about" class="content-section">
         <h2>About</h2>
         <p>
-          My name is Aubrey Soule i am a Married 30 year old Marine Corps vet who worked on CH-53E Super Stallion helicopter.
-          <br>I love motorcycles! I currently ride a 2025 CFMOTO 675SS and absolutely love it!!</br>
-          Im also a HUGE Gundam anime fan, I build Gundam kits while watching the Anime in my free time. 
+          My name is Aubrey Soule. I am a married 30-year-old Marine Corps vet who worked on the CH-53E Super Stallion helicopter.
+          <br>I love motorcycles! I currently ride a 2025 CFMOTO 675SS and absolutely love it!</br>
+          I'm also a HUGE Gundam anime fan and enjoy building Gundam kits while watching anime in my free time.
         </p>
       </section>
 
-      <section id="project">
+      <!-- ✅ UPDATED PROJECTS SECTION -->
+      <section id="projects" class="content-section">
         <h2>Projects</h2>
-        <p>
-         This is my only project im currently working on. 
-        </p>
+        <p>This is what I am currently working on.</p>
+
+        <table>
+          <caption>Current Sample Projects</caption>
+
+          <colgroup>
+            <col class="col-highlight">
+            <col>
+            <col class="col-highlight">
+          </colgroup>
+
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Description</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Personal Homepage</td>
+              <td>
+                A personal homepage built using HTML and CSS to showcase my background and interests.
+              </td>
+              <td>
+                <img src="#" alt="Project image placeholder">
+              </td>
+            </tr>
+
+            <tr>
+              <td>Character Generator</td>
+              <td>
+                A future project that will generate random RPG characters.
+              </td>
+              <td>
+                <img src="#" alt="Project image placeholder">
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">More projects will be added soon.</td>
+            </tr>
+          </tfoot>
+        </table>
       </section>
 
-      <section id="contact">
+      <section id="contact" class="content-section">
         <h2>Contact</h2>
         <p>
-          Email - aubsou7869@students.ecpi.edu
+          Email – aubsou7869@students.ecpi.edu
         </p>
       </section>
     </main>
 
     <footer>
-      <p>&copy: 2025 Aubrey Soule. all rights reserved.</p>
+      <p>&copy; 2025 Aubrey Soule. All rights reserved.</p>
     </footer>
 </body>
 </html>
