@@ -15,7 +15,7 @@ This is my personal website where I showcase my interests, projects, and skills 
 - JavaScript (to be added later)
 
 ## Installation Instructions
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo-name.git`
+1. Clone the repository: `git clone https://aubsou7869.github.io/SDC260/`
 2. Open the `index.html` file in your web browser.
 
 ## Usage
